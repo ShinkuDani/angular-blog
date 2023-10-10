@@ -12,7 +12,8 @@ export class BigCardComponent implements OnInit {
   cardTitle:string = "";
  @Input()
   cardDescription:string = "Era uma Vez um mundo que foi fragmentado e novamente reunido formado de duas partes";
-
+  @Input()
+  id:string = ""
   constructor() { }
 
   ngOnInit(): void {
